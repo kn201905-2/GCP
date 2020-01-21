@@ -1,4 +1,4 @@
-# SSH接続
+# VM への SSH接続
 * Git Bash 等を用いて、鍵ペアを生成する。id_rsa と　id_rsa.pub を、どのフォルダでもいいから作成する
 ```
 # ssh-keygen -t rsa -b 4096 -C "tstpc6001@gmail.com"
@@ -16,3 +16,26 @@
 * User Name： tstpc6001  
 * SSH Identity Key：「id_rsa」を指定すれば良い  
 * デフォルト文字セット： UTF-8  
+
+---
+# SSH ポート変更
+```
+$ sudo su -
+# cd /etc/ssh
+# ls
+# cp sshd_config sshd_config.old
+# ls -la
+```
+* sshd_config の Port を変更（先頭付近にあるから、すぐに分かるはず）  
+* reboot  
+* GCP のナビゲーションから、VPCネットワークを選択  
+* 左側のリストから「ファイアウォール ルール」を選択  
+* 上段から「ファイアウォール ルールを作成」を選択  
+* とりあえず、自分の IP から、全てのポートを通過させるルールを作成  
+* ssh と rdp に関するルールを削除  
+
+ポートの開放状態の確認
+```
+# apt install nmap
+# nmap localhost
+```
