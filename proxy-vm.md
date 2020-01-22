@@ -39,3 +39,9 @@ $ sudo su -
 # apt install nmap
 # nmap localhost
 ```
+
+---
+# プロキシ（squid）の設定
+```
+# apt install squid
+```
