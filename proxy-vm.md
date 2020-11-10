@@ -4,7 +4,8 @@
 # ssh-keygen -t rsa -b 4096 -C "tstpc6001@gmail.com"
 （tstpc6001 の部分がユーザ名となる。好きなもので良いと思う）
 
-「Enter file in which to save the key」に対しては、好きなファイル名で良い（例）「/z/rsa/id_rsa」
+「Enter file in which to save the key」に対しては、好きなファイル名で良い
+（例）「/z/rsa/id_rsa」
 ```
 
 * GCE コンソールで、左側のリストから「VM インスタンス」を選ぶ  
