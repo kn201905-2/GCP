@@ -29,6 +29,15 @@ https://cloud.google.com/free/docs/gcp-free-tier?hl=ja#free-tier-usage-limits
 * デフォルト文字セット： UTF-8  
 
 ---
+# RLogin で SSH 接続後
+```
+$ sudo su -
+# apt update
+# apt upgrade
+# apt install vim
+```
+
+---
 # SSH ポート変更
 ```
 $ sudo su -
