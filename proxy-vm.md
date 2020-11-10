@@ -12,6 +12,10 @@
 ```
 https://console.cloud.google.com/home/dashboard?project=proxy-test-265811&hl=ja&pli=1
 ```
+* Always Free の制限の確認
+```
+https://cloud.google.com/free/docs/gcp-free-tier?hl=ja#free-tier-usage-limits
+```
 * GCE コンソールで、左側のリストから「VM インスタンス」を選ぶ  
 * 画面上部の「編集」をクリック  
 * 「SSHキーが○個あります」の「表示して編集する」をクリック  
@@ -21,7 +25,7 @@ https://console.cloud.google.com/home/dashboard?project=proxy-test-265811&hl=ja&
 次は、RLogin の設定を行う  
 * Server Address： GCE コンソールで、左側のリストから「VM インスタンス」を選び、ネットワークインターフェイスの「外部IP」を入力  
 * User Name： tstpc6001  
-* SSH Identity Key：「id_rsa」を指定すれば良い  
+* SSH Identity Key：「id_rsa」を指定すれば良い（現在は、`__dev__/_GCP` に保存している）
 * デフォルト文字セット： UTF-8  
 
 ---
