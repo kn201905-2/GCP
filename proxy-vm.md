@@ -23,7 +23,7 @@ https://cloud.google.com/free/docs/gcp-free-tier?hl=ja#free-tier-usage-limits
 * 画面下部の「保存」をクリック
 
 次は、RLogin の設定を行う  
-* Server Address： GCE コンソールで、左側のリストから「VM インスタンス」を選び、ネットワークインターフェイスの「外部IP」を入力  
+* Server Address： GCE コンソールで、左側のリストから「VM インスタンス」を選び、ネットワークインターフェイスの「外部IP」に表示されているアドレスを入力  
 * User Name： tstpc6001  
 * SSH Identity Key：「id_rsa」を指定すれば良い（現在は、`__dev__/_GCP` に保存している）
 * デフォルト文字セット： UTF-8  
