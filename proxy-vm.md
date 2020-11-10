@@ -8,6 +8,10 @@
 （例）「/z/rsa/id_rsa」
 ```
 
+* GCP へのアクセス
+```
+https://console.cloud.google.com/home/dashboard?project=proxy-test-265811&hl=ja&pli=1
+```
 * GCE コンソールで、左側のリストから「VM インスタンス」を選ぶ  
 * 画面上部の「編集」をクリック  
 * 「SSHキーが○個あります」の「表示して編集する」をクリック  
