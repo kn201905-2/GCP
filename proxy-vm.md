@@ -76,8 +76,8 @@ $ sudo su -
 ```
 * vim で http_access を検索し（ノーマルモードで /http_access + リターン。その後、「n」or「N」で検索）
 
-* 設定ファイルは `/etc/squid/squid.conf`
 ```
+設定ファイルは /etc/squid/squid.conf
 以下のみに。それ以外は、コメントアウト
 http_access allow all
 ```
