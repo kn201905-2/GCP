@@ -95,3 +95,15 @@ http_port 3128 を変更
 # 使用料金の確認
 * お支払い -> 予算とアラート、でアラートを設定しておく
 * お支払い -> 概要、で使用量を確認しておく
+
+---
+# code-server のインストール
+参考URL: https://github.com/cdr/code-server/blob/v3.7.4/doc/install.md
+```
+# curl -fsSL https://code-server.dev/install.sh | sh
+...
+To have systemd start code-server now and restart on boot:
+  sudo systemctl enable --now code-server@$USER
+Or, if you don't want/need a background service you can run:
+  code-server
+```
