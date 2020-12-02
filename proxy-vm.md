@@ -109,3 +109,15 @@ To have systemd start code-server now and restart on boot:
 Or, if you don't want/need a background service you can run:
   code-server
 ```
+* 設定ファイルの書き換え
+```
+# cd ~/.config/code-server
+# vim config.yaml
+
+bind-addr: 0.0.0.0:****
+（auth: none）
+```
+* code-server の起動
+```
+# code-server
+```
