@@ -98,7 +98,9 @@ http_port 3128 を変更
 
 ---
 # code-server のインストール
-参考URL: https://github.com/cdr/code-server/blob/v3.7.4/doc/install.md
+参考URL:
+https://github.com/cdr/code-server  
+https://github.com/cdr/code-server/blob/v3.7.4/doc/install.md
 ```
 # curl -fsSL https://code-server.dev/install.sh | sh
 ...
